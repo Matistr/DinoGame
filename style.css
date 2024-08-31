@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    border: 2px solid #000;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.dino {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+}
+
+.cactus {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 50px;
+    background-color: #228b22;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+.dino {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url('dino.png'); /* Cambia 'dino.png' por el nombre de tu imagen */
+    background-size: cover; /* Asegúrate de que la imagen se ajuste al tamaño del div */
+}
